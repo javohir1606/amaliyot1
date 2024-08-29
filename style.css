@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header_text {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+}
+
+.header_text span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #2959ce;
+}
+
+.header_row {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.header_btn {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 10px;
+  padding: 13px 20px;
+  width: 89px;
+  height: 45px;
+  background-color: #7296ec;
+  border: none;
+}
+
+.header_input {
+  border-radius: 60px;
+  width: 275px;
+  height: 45px;
+  background-color: #fff;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #8d8d8d;
+  border: 2px solid #8d8d8d;
+  padding: 20px;
+}
+
+.header_pic {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.header_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero_link {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #7f7f7f;
+  text-decoration: none;
+}
+
+.hero_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 33px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.hero_item {
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+
+.about_text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+
+.about_list {
+  border-radius: 15px;
+  width: 797px;
+  height: 205px;
+  background-color: #f6f6f6;
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about_tx {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.about__tx {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 137%;
+  color: #4a4b4c;
+  margin-bottom: 20px;
+}
+
+.about_lg {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  color: #5e5f61;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
