@@ -110,7 +110,7 @@ body {
 }
 
 
-.about_list {
+.about_item {
   border-radius: 15px;
   width: 797px;
   height: 205px;
@@ -119,8 +119,7 @@ body {
   display: flex;
   gap: 15px;
   margin-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 
 .about_tx {
@@ -152,4 +151,43 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.block{
+  border-radius: 15px;
+  width: 393px;
+  height: 502px;
+  background-color: #f6f6f6;
+  padding: 20px;
+  margin-left: auto;
+}
+
+.menu_text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.menu_tx {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  color: #000;
+  margin-bottom: 8px;
+  width: 310px;
+}
+
+.menu__tx {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 13px;
+  color: #5e5f61;
+  margin-bottom: 20px;
+}
+.hr{
+  margin-bottom: 20px;
+
 }

@@ -4,8 +4,8 @@ const List = document.querySelector(".list");
 
 const render = () => {
   for (let i of data) {
-    let div = document.createElement("div");
-    div.classList = "about_list";
+    let li = document.createElement("li");
+    li.classList = "about_item";
 
     const wrapper = document.createElement("div")
     const wrap = document.createElement("div")
@@ -30,9 +30,36 @@ const render = () => {
 
     wrap.append(icon, p)
     wrapper.append(title, text,wrap)
-    div.append(img, wrapper )
-    List.append(div)
+    li.append(img, wrapper )
+    List.append(li)
   }
 }
 
-render(data)
+render();
+
+
+// import {person} from "./data.js";
+
+// const menu = document.querySelector(".menu");
+
+// const row = () => {
+//   for (let i of person) {
+//     let div = document.createElement("div");
+//     div.classList = "block";
+
+//     const title = document.createElement("h2");
+//     title.textContent = i.title;
+    
+//     const text = document.createElement("h2");
+//     text.textContent = i.text;
+    
+//     const tx = document.createElement("h3");
+//     tx.textContent = i.tx;
+    
+//     div.append(title, text, tx)
+//     menu.append(div)
+//   }
+// }
+
+// row(person)
+
